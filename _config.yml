@@ -17,7 +17,7 @@ title: Karl Erelöf
 email: ke222pf@student.lnu.se
 description: >- # this means to ignore newlines until "baseurl:"
   My name is Karl Erelof and welcome to my site. Here you can follow my life
-  as an web-developer student in Kalmar, Sweden.
+  as a web-developer student in Kalmar, Sweden.
  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://erelof.com" # the base hostname & protocol for your site, e.g. http://example.com
