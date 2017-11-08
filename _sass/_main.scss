@@ -1,10 +1,12 @@
 body {
-    background-image: url('/img/bakgrund.jpg');
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-  }
-  .page-heading {
-    @include relative-font-size(1.25);
-    text-align: center;
-  }
+  background-image: url('/img/bakgrund.jpg');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.page-heading {
+  @include relative-font-size(1.25);
+  text-align: center;
+  font-style: oblique;
+}
