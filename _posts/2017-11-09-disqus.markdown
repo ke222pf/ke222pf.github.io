@@ -1,0 +1,23 @@
+---
+layout: post
+comments: true
+title:  "Get disqus to your blog"
+date:   2017-11-09 10:37:27 +0100
+categories: General
+---
+## Disqus
+with disqus i opened a new file in _include and named it disqus.html where I implemented the code. And I include discus.html in post.html if comments are activated in posts.
+
+### Disqus.html
+```
+    (function () {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://examination-1dv022.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+```

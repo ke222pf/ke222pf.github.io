@@ -9,4 +9,15 @@ body {
   @include relative-font-size(1.25);
   text-align: center;
   font-style: oblique;
+  text-transform: capitalize;
+  color: rgb(179, 159, 133);
+}
+a.site-title {
+  &,
+  &:hover {
+    color: rgb(179, 159, 133);
+  }
+}
+.page-content {
+  background-color: rgba(170, 167, 166, 0.5);
 }
