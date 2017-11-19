@@ -6,7 +6,7 @@ date:   2017-11-09 10:37:27 +0100
 categories: General
 ---
 ## Disqus
-with disqus i opened a new file in _include and named it disqus.html where I implemented the code. And I include discus.html in post.html if comments are activated in posts.
+with Disqus I opened a new file in _include and named it disqus.html where I implemented the code. And I included discus.html in post.html if comments are activated in posts.
 
 ### Disqus.html
 ```

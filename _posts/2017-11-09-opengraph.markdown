@@ -9,9 +9,9 @@ categories: General
 
 ## Open graph
 Open graph enables the possibility to create links with graphical content.
-When i implementede Open Graph I created a new file in `_includes`,
-`opengraph.html`. in `opengraph.html` I applyed Basic Metadata, with 
-title, type, image and url. To make the Open Graph work i include 
+When I implemented Open Graph I created a new file in `_includes`,
+`opengraph.html`. In `opengraph.html` I applyed Basic Metadata, with 
+title, type, image and url. To make the Open Graph work I included
 it in `head.html`. 
 ### My opengraph.html
 ```
