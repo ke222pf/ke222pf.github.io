@@ -7,5 +7,5 @@ categories: General
 ---
 ## Pre-compiling CSS
 i think pre-compiling CSS is a much easier and structured way to code css. You dont have to repeat youreself like you do when you write CSS.
-The technique i used was sass. you can write variables in sass, so you get more structured code and if you want to change something in you css you only have to change it in one place. You don't have to change it in every place. 
-
+The technique i used was sass. you can write variables in sass, so you get more structured code and if you want to change something in your css you only have to change it in one place then you don't have to change it in every place.
+when you want to debugg your code it can be problematic, because the source code doesnt have the same line-number as the generated code. 

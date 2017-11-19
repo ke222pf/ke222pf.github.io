@@ -3,6 +3,7 @@ body {
   background-size: cover;
   width: 100vw;
   height: 100vh;
+  background-repeat: repeat-y;
 }
 
 .page-heading {
@@ -20,4 +21,12 @@ a.site-title {
 }
 .page-content {
   background-color: rgba(170, 167, 166, 0.5);
+  -moz-box-shadow:    inset 0 0 15px #75787c;
+  -webkit-box-shadow: inset 0 0 15px #75787c;
+  box-shadow:         inset 0 0 15px #75787c;
+}
+.site-header {
+  border-bottom: 1px solid $grey-color-light;
+  min-height: $spacing-unit * 1.865;
+  position: relative;
 }
